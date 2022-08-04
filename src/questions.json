@@ -1,0 +1,186 @@
+[
+    {
+        "title": "Intro",
+        "description": "What are the entries for ringing up a $100 fee on 6/10 and paying for it on the same day",
+        "correct_answers": [
+            {
+                "type": "cash",
+                "entries": [
+                    {
+                        "when": "6/10",
+                        "type": "cash",
+                        "Dr": 100
+                    },
+                    {
+                        "when": "6/10",
+                        "type": "revenue",
+                        "Cr": 100
+                    }
+                ]
+            },
+            {
+                "type": "accrual",
+                "entries": [
+                    {
+                        "when": "6/10",
+                        "type": "cash",
+                        "Dr": 100
+                    },
+                    {
+                        "when": "6/10",
+                        "type": "revenue",
+                        "Cr": 100
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Intro to A/R",
+        "description": "What are the entries for ringing up a $100 fee on 6/10 and paying for it later 7/15",
+        "correct_answers": [
+            {
+                "type": "cash",
+                "entries": [
+                    {
+                        "when": "7/15",
+                        "type": "cash",
+                        "Dr": 100
+                    },
+                    {
+                        "when": "7/15",
+                        "type": "revenue",
+                        "Cr": 100
+                    }
+                ]
+            },
+            {
+                "type": "accrual",
+                "entries": [
+                    {
+                        "when": "6/10",
+                        "type": "receivable",
+                        "Dr": 100
+                    },
+                    {
+                        "when": "6/10",
+                        "type": "revenue",
+                        "Cr": 100
+                    },
+                    {
+                        "when": "7/15",
+                        "type": "cash",
+                        "Dr": 100
+                    },
+                    {
+                        "when": "7/15",
+                        "type": "receivable",
+                        "Cr": 100
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Intro to D/R",
+        "description": "Paying for a $70 October Membership (10/01 - 10/31) on September 5th",
+        "correct_answers": [
+            {
+                "type": "cash",
+                "entries": [
+                    {
+                        "when": "9/5",
+                        "type": "cash",
+                        "Dr": 70
+                    },
+                    {
+                        "when": "9/5",
+                        "type": "revenue",
+                        "Cr": 70
+                    }
+                ]
+            },
+            {
+                "type": "accrual",
+                "entries": [
+                    {
+                        "when": "9/5",
+                        "type": "cash",
+                        "Dr": 70
+                    },
+                    {
+                        "when": "9/5",
+                        "type": "deferred",
+                        "Cr": 70
+                    },
+                    {
+                        "when": "10/1",
+                        "type": "deferred",
+                        "Dr": 70
+                    },
+                    {
+                        "when": "10/1",
+                        "type": "revenue",
+                        "Cr": 70
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Refunds needed",
+        "description": "$75 July membership paid on July 1st. Then, staff realizes there should have been a scholarship applied for $15 and a refund is issued on July 3rd",
+        "correct_answers": [
+            {
+                "type": "cash",
+                "entries": [
+                    {
+                        "when": "7/1",
+                        "type": "cash",
+                        "Dr": 75
+                    },
+                    {
+                        "when": "7/1",
+                        "type": "revenue",
+                        "Dr": 75
+                    },
+                    {
+                        "when": "7/3",
+                        "type": "contra",
+                        "Cr": 15
+                    },
+                    {
+                        "when": "7/3",
+                        "type": "cash",
+                        "Cr": 15
+                    }
+                ]
+            },
+            {
+                "type": "accrual",
+                "entries": [
+                    {
+                        "when": "7/1",
+                        "type": "cash",
+                        "Dr": 75
+                    },
+                    {
+                        "when": "7/1",
+                        "type": "revenue",
+                        "Dr": 75
+                    },
+                    {
+                        "when": "7/3",
+                        "type": "contra",
+                        "Cr": 15
+                    },
+                    {
+                        "when": "7/3",
+                        "type": "cash",
+                        "Cr": 15
+                    }
+                ]
+            }
+        ]
+    }
+]

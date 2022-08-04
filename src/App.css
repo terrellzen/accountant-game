@@ -1,0 +1,63 @@
+.App {
+  background-color: whitesmoke;
+  border-radius: 2%;
+  padding: 2% 0% 5%;
+  margin: 15% auto;
+  text-align: center;
+  -webkit-box-shadow: 4px 0px 15px 5px #000000;
+  box-shadow: 4px 0px 15px 5px #000000;
+  width: 700px;
+}
+
+.buttonClass {
+  font-size: 15px;
+  width: 140px;
+  height: 50px;
+  border-width: 1px;
+  color: #ffffff;
+  border-color: #124d77;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-shadow: inset 0px 1px 0px 0px #54a3f7;
+  text-shadow: inset 0px 1px 0px #154682;
+  background: linear-gradient(#007dc1, #0061a7);
+}
+
+.buttonClass:hover {
+  background: linear-gradient(#0061a7, #007dc1);
+}
+
+.container {
+  margin: 5% 0%;
+}
+
+.inputBox {
+  margin: 2%;
+}
+
+.levelButton {
+  font-size: 15px;
+  width: 107px; 
+  height: 41px;
+  border-width: 1px;
+  color: #ffffff;
+  border-color: rgba(155, 155, 155, 1);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 1);
+  text-shadow: inset 0px 1px 0px rgba(255, 255, 255, 1);
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(74, 74, 74, 1));
+  margin: 1% 5% 0% 5%;
+}
+  
+.levelButton:hover {
+  background: linear-gradient(rgba(74, 74, 74, 1), rgba(0, 0, 0, 1));
+}
+
+input {
+  margin: .5%;
+}
