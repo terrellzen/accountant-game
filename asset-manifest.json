@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/accountant-game/static/css/main.073c9b0a.css",
+    "main.js": "/accountant-game/static/js/main.a87aba49.js",
+    "static/js/787.3741b532.chunk.js": "/accountant-game/static/js/787.3741b532.chunk.js",
+    "static/media/logo.svg": "/accountant-game/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/accountant-game/index.html",
+    "main.073c9b0a.css.map": "/accountant-game/static/css/main.073c9b0a.css.map",
+    "main.a87aba49.js.map": "/accountant-game/static/js/main.a87aba49.js.map",
+    "787.3741b532.chunk.js.map": "/accountant-game/static/js/787.3741b532.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.a87aba49.js"
+  ]
+}
